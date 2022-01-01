@@ -10,8 +10,7 @@ if($output->num_rows>0)
 {
     while($row=$output->fetch_assoc())
     {
-        echo"Found";
-    }
+        echo $row["sno"];   }
 }
 else
 {
